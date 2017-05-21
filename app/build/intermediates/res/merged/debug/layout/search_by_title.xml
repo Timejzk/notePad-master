@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/Tablelayout"
+    android:paddingLeft="6dip"
+    android:paddingRight="6dip"
+    android:paddingBottom="3dip">
+
+
+
+
+<!--本文件是按标题查询的弹出窗口布局文件-->
+
+
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <!--用户名输入框-->
+        <EditText android:id="@+id/SearchTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入查询111"
+            android:selectAllOnFocus="true"/>
+
+    </TableRow>
+
+
+
+</TableLayout>
