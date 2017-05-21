@@ -1,6 +1,6 @@
-#  笔记本项目
+#  NotePad
 ------
-## 本次演示主要展示实现的基本功能，及详细介绍。
+## This is an AndroidStudio rebuild of google SDK sample NotePad
 ## 基本功能：
 #### 时间戳的实现：
 ![时间戳]()
