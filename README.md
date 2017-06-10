@@ -3,7 +3,6 @@
 ## This is an AndroidStudio rebuild of google SDK sample NotePad
 ## 基本功能：
 #### 时间戳的实现：
-![时间戳]()
 ##### insert()函数中，每次新插入数据时，通过调用GetTime.Get_Now_Time_Long()函数获取当前时间；然后再待插入的Values中将CREATE_DATE，MODIFICATION_DATE两列的数值替换成当前时间。主要修改代码如下：
 	// 得到当前时间
 	Long now = GetTime.Get_Now_Time_Long();
@@ -24,8 +23,6 @@
 	values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE,now);
 
 #### 搜索功能的实现，模糊查询标题：
-![搜索]()
-
 #####首先是NoteList中onOptionsItemSelected(MenuItem item) onOptionsItemSelected()：方法中，新增加了menu_Search选项，并且调用customView()方法导入布局文件 代码如下
 	@Override
     public boolean onOptionsItemSelected(MenuItem item) {
